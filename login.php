@@ -12,13 +12,14 @@
             <div class="col-xs-12"><h1>Please login to play!</h1></div>
         </div>
         <div class="row">
-        <div class="col-xs-12">
+            <div class="col-xs-12">
             <?php
                 if (isset($_GET["msg"])) {
                 echo $_GET["msg"];    
                 } 
             ?>
-    </div>
+            </div>
+        </div>
         <form class="form-horizontal" role="form" action="authorize.php" method="post">
             <div class="form-group">
                 <label class="control-label col-sm-4" for="email">Email: </label>
@@ -32,12 +33,13 @@
                     <input type="text" class="form-control" id="password" name="password" placeholder="Password" size="6" />
                 </div>
             </div>
-        </form>
-        <div class="row">
+            <div class="row">
             <div class="col-sm-4 col-sm-offset-4">
                 <button type="submit" class="btn btn-primary">Login</button>
             </div>
         </div>
+        </form>
+        
     </div> 
 </body>
 </html>

@@ -8,6 +8,11 @@
 </head>
 <body>
     <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4">
+                <h1>Math Game</h1>
+            </div>
+        </div>
         <?php 
         $operators = array('+', '-');
         $operator = $operators[rand(0, 1)];
@@ -15,7 +20,10 @@
         $second_number = rand(0, 20);
         ?>
         <form action="index.php" method="post" class="form-horizontal" role="form">
-        
+            
+            <label class="control-label col-sm-3" for="first_number"><?php $first_number ?></label>
+            <label class=""></label>
+            
             <input type="hidden" name="first_number" value="$first_number" />
             <input type="hidden" name="operator" value="$operator" />
             <input type="hidden" name="second_number" value="$second_number" />
