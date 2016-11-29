@@ -24,13 +24,13 @@
             <div class="form-group">
                 <label class="control-label col-sm-4" for="email">Email: </label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" size="6" />
+                    <input type="text" required="true" class="form-control" id="email" name="email" placeholder="Email" size="6" />
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-4" for="pwd">Password:</label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="password" name="password" placeholder="Password" size="6" />
+                    <input type="text" required="true" class="form-control" id="password" name="password" placeholder="Password" size="6" />
                 </div>
             </div>
             <div class="row">
